@@ -1,0 +1,60 @@
+Task: Build a To-Do List Application
+Objective:
+Create a simple yet functional To-Do List application using Next.js, TailwindCSS, and local storage to manage the data. The application should allow users to:
+Add new tasks.
+Edit existing tasks.
+Delete tasks.
+All actions (add/edit/delete) should be performed using modals to provide a clean and user-friendly experience.
+
+
+
+Requirements:
+Core Features:
+Add Tasks:
+Users can add a task with a title and optional description.
+Tasks should be stored in local storage.
+Edit Tasks:
+Users can edit the title and description of an existing task.
+Changes should be saved to local storage.
+Delete Tasks:
+Users can delete a task.
+Confirmation should be required before deletion.
+Interface:
+The design should be simple, clean, and user-friendly using TailwindCSS.
+The to-do list should display:
+Task title.
+Optional task description.
+Created/last updated timestamp.
+Modals:
+Use modals for:
+Adding a new task.
+Editing a task.
+Confirming the deletion of a task.
+The modals should be responsive and styled using TailwindCSS for a modern look.
+Local Storage:
+All tasks should persist using the browser’s local storage.
+Ensure data is retrieved from local storage on page reload.
+Technical Stack:
+Use Next.js for the application framework.
+Style the app entirely using TailwindCSS.
+
+
+
+Bonus (Optional):
+Add a search or filter feature to quickly find tasks.
+Implement sorting (alphabetical order).
+
+
+
+Evaluation Criteria:
+Code quality and organization.
+Proper use of React, Next.js, TailwindCSS, and local storage.
+Usability and responsiveness of the interface.
+Functionality of add/edit/delete features with modals.
+Ability to handle edge cases (e.g., empty fields, duplicate tasks).
+
+
+
+Submission:
+Share the project as a GitHub repository or a ZIP file.
+Provide instructions to run the application locally.
